@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "builds": [
+        { "src": "public/**/*.html", "use": "@vercel/static" }
+    ],
+    "routes": [
+        { "src": "/karir", "dest": "/public/karir/index.html" },
+        { "src": "/login", "dest": "/public/login/index.html" },
+        { "src": "/sign-up", "dest": "/public/sign-up/index.html" },
+        { "src": "/overview", "dest": "/public/overview/index.html" }
+    ]
+}
